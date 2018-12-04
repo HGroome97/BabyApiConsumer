@@ -36,4 +36,5 @@ public class BabyReceiver {
     	List<SentBaby> babies = mongoTemplate.find(query, SentBaby.class);
     	repo.deleteById(babyId);
     }
+    
 }
